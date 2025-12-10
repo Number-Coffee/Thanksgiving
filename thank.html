@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanksgiving</title>
+    <link rel="stylesheet" href="thank.css">
+</head>
+<body>
+    <header>
+        <h1>🦃 💀Enoch's (super cool) thanksgiving traditions💀 🦃</h1>
+    </header>
+    <container id="main">
+
+            
+        <div id="card" class="card" style="">
+            <h2>Favorite Dishes</h2>
+            <container id="imgCont"><button style="background-color: dodgerblue;" onclick="increment('minus')">Left.</button><img id="dishImg" src="mashedpotatoes.webp"><button style="background-color: red;" onclick="increment('plus')">Right</button></container>
+            <br>
+            <p id="dishParagraph">Mashed potatoes are my favoite thanksgiving food. It's kinda like warm icecreame, but without suger.</p>
+            <br>
+            <table>
+                <tr>
+                    <th>Food</th>
+                    <th>Main Ingredient</th>
+                </tr>
+                <tr>
+                    <td>Mashed Potatoes</td>
+                    <td>Solanum tuberosum</td>
+                </tr>
+                <tr>
+                    <td>Turkey</td>
+                    <td>Meleagris</td>
+                </tr>
+                <tr>
+                    <td>Pumpkin Pie</td>
+                    <td>Cucurbita Citrulus</td>
+                </tr>
+                
+            </table>
+        </div>
+        <div id="cardq" class="card"><h2>What I'm Thankful For</h2>
+            <p>Thanksgiving me time to reflect my year and appreciate all of those that have helped me:</p>
+            <br>
+            <ul>
+                <strong>
+                    <li>Friends</li>
+                    <li>Family</li>
+                    <li>Securly AI</li>
+                    <li>America's Judicial System</li>
+                    <li>Classmates</li>
+                </strong>
+            </ul>
+            <br>
+            <br>
+            <p> You can support families in need of food by donating to <a href="https://give.feedingamerica.org/a/donate">Feed America</a></p>
+            <br> 
+            <p> You can also support Jaitra by donating to her bank account, she needs it...</p>
+            <div style="background-color: rgb(9, 86, 9); border: none; height: 20vh; border-radius: 20px; justify-content: center;text-align: center;" onclick="donate()" id="donDiv">
+                <br>
+            <p style="color: rgb(222, 222, 222); font-size: 18px;">Jaitra's Account Balance</p>
+            <h1 id="jMoney" style="font-size: 60px; color: white;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: lighter;">$2</h1>
+        </div>
+        </div>
+            
+        <div id="cardb" class="card" style=""><h2>Family Traditions</h2>
+            <br>
+            <p>
+                Although I celebrate thanksgiving like every other family and have litterly zero unique traditions, here are some generic (not ai generated) things we do every year.
+            </p>
+            <br>
+            <p>On thanksgiving, me and my family eat food at the table. We also drink water at that same table. Then we clean up the table and I wash the dishes.  </p>
+
+            <div class="imgDiv" style="display: flex; height: auto; justify-content: center; border: none;gap: 15px;">
+                <img src="https://thumbs.dreamstime.com/b/portrait-hungry-black-man-eating-burger-enjoying-cheat-meal-standing-over-white-background-studio-shot-junk-food-male-206481589.jpg">
+                <img src="https://t4.ftcdn.net/jpg/01/71/25/85/360_F_171258535_iEU8dPGvrS3usyZav3xrkT8ZYyjfWYY5.jpg">
+                <img src="https://media.istockphoto.com/id/1302830660/photo/happy-african-american-man-washing-dishes-at-home.jpg?s=612x612&w=0&k=20&c=jIKrEG3U0WDDZ2UM5IHQtAEOCxOx7Sb0yhn2fVUAkIY=">
+            </div>
+        </div>
+    </container>
+    <footer>
+        <h6> Enoch Olubiyi, 2025</h6>
+    </footer>
+    <script src="thank.js"></script>
+</body>
+</html>

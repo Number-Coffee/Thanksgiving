@@ -1,0 +1,119 @@
+*{
+    padding: none;
+    margin: 0;
+    transition: 180ms ease;
+    
+}
+body{
+    overflow: hidden;
+    background-color: #ffbc75;
+    margin: 0;
+    padding: 0;
+    animation: pulsate ease 5s infinite alternate;
+}
+#main{
+    justify-content: space-around;
+    display: flex;
+}
+#imgCont{
+    display: flex;
+    justify-content: space-around;
+}
+#dishImg{
+    height: 25vh;
+    width: 205vw;
+    background-color: black;
+}
+.card{
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+header{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+}
+div{
+    border: 2px solid rgb(152, 98, 16);
+    background-color: #f4ad57;
+    width: 28vw;
+    height: 70vh;
+}
+button{
+    transition:160ms ease;
+}
+button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 1.45px solid black;
+}
+@keyframes pulsate {
+    from{
+        background-color: #ffbc75;
+    }
+    to{
+        background-color: rgb(249, 120, 85);
+    }
+}
+@keyframes moves {
+    50%{
+        transform: translateX(67vw);
+    }
+    100%{
+        transform: translateX(0vw);
+    }
+}
+@keyframes moveb {
+    50%{
+        transform: translateX(-67vw);
+    }
+    100%{
+        transform: translateX(0vw);
+    }
+}
+@keyframes moveq {
+    0%{
+        transform: translateY(0vw);
+    }
+    25%{
+        transform: translatey(67vh);
+    }
+    50%{
+        transform: translateX(0vw);
+    }
+    100%{
+        transform: translateY(-67vh);
+    }
+}
+.imgDiv img{
+    width: 28%;
+    height: 20%;
+    border-radius: 24px;
+    border: 1.2px solid;
+    transition: 180ms;
+}
+.imgDiv img:hover{
+    scale: 1.1;
+}
+#donDiv:hover{
+    cursor: pointer;
+    scale: 1.04;
+    
+}
+.move{
+    animation: moves 5s ease  infinite alternate;
+}
+.moveb{
+    animation: moveb 5s ease  infinite alternate;
+}
+.moveq{
+    animation: moveq 5s ease  infinite alternate;
+}
