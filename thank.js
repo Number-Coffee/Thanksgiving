@@ -27,12 +27,40 @@ function donate(){
     bruh = "$" + bruh
     document.getElementById("jMoney").innerText = bruh
     if(counter2 > 2){
+    alert("Thats enough.")
+}
+if(counter2 > 4){
+    alert("I said thats enough.")
+}
+if(counter2 > 6){
+    let wrongAnswer = prompt("Why do you want to give her money anyways?")
+    alert("wrong answer.")
+}
+if(counter2 > 8){
+    alert("fine. you leave me no choice.")
     document.getElementById("card").classList.add("move")
 }
-if(counter2 > 7){
+if(counter2 > 10){
+    alert("i said STOP.")
+}
+if(counter2 > 14){
+    alert("cmon bro. its nots that deep")
     document.getElementById("cardb").classList.add("moveb")
 }
-if(counter2 > 13){
+if(counter2 > 17){
+    alert("im warning you.")
+}
+if(counter2 > 21){
     document.getElementById("cardq").classList.add("moveq")
+}   
+if(counter2 > 26){
+    alert("if you dont stop ill crash the sight")
+} 
+if(counter2 > 29){
+    alert("you brought this on yourself")
+    while(true){
+        print("lolz")
+    }
+}   
 }
-}
+
