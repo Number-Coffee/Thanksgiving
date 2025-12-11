@@ -105,7 +105,6 @@ td, th{
 }
 #donDiv:hover{
     cursor: pointer;
-    scale: 1.04;
     
 }
 .move{
@@ -116,4 +115,5 @@ td, th{
 }
 .moveq{
     animation: moveq 5s ease  infinite alternate;
+
 }
