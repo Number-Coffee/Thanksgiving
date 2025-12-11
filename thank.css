@@ -105,7 +105,6 @@ td, th{
 }
 #donDiv:hover{
     cursor: pointer;
-    
 }
 .move{
     animation: moves 5s ease  infinite alternate;
@@ -117,3 +116,4 @@ td, th{
     animation: moveq 5s ease  infinite alternate;
 
 }
+
